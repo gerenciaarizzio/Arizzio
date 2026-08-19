@@ -1,0 +1,421 @@
+
+body{
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 11;  
+}
+
+.tarjeta {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed rgba(75, 85, 99, 1);;
+  background-color: #101424; /*fondo de card*/
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px rgba(0,0,0,0.1);
+  margin-top: 1em;
+  color: rgb(191, 191, 205); /*texto*/
+
+}
+
+.tarjeta.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta.text span {
+  font-weight: 400;
+  color: rgba(75, 85, 99, 1);
+}
+
+.tarjeta input {
+  display: none;
+}
+
+/*--------------*/
+.container {
+  height: 100vh;
+  width: 100vw;
+  max-height: 0rem;
+  max-width: 90rem;
+  min-height: 25rem;
+  min-width: 82rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+.border {
+  height: 24rem;
+  width: 20rem;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+ 
+}
+.border:hover {
+  border: 1px solid #101424;
+}
+.card {
+  height: 24rem;
+  width: 19rem;
+  background: #524444;
+  border-radius: 10px;
+  transition:  0.8s;
+  overflow: hidden;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 10em;
+
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+.h2  {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #10142487;
+  margin: 14px;
+  opacity: 0;
+  transition: opacity 1s;
+  padding-top: 10px;
+  background-color: #101424aa; /* fondo oscuro */
+  color: #ffffff; /* texto blanco */
+  padding: 10px;
+  border-radius: 15px;
+  width: 17rem; 
+  font-size: 22px;
+}
+
+
+.productos {
+  list-style-type: square;
+  color: #ffffff;
+  font-size: 15px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+::-webkit-scrollbar { /*Ocultar todas las barras de desplazamiento*/
+    display: none;
+}
+
+/**narra de navegacion*/
+.navbar {
+   padding: 0rem;
+   font-family: "Questrial", sans-serif; 
+    color: #ffffff; /*color blanco marfil*/ 
+    position: fixed;
+    z-index: 4; /* Ajusta el valor según tus necesidades */
+    background-color: #262a26; /*color fondo navbar*/ 
+
+}
+    
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between; /*enlaces del navbar al lado derecho*/
+}
+
+@media screen and (max-width: 767px) { /*para ocultar el icono en pantallas pequeñas*/
+    .navbar-brand{
+        display: none;
+    }   
+}
+
+.navbar-toggler {
+    border: none !important;
+    color: #8C52FF;
+  }
+
+.nav-link:hover {
+    color: #ffffff; /*color blanco marfil*/ 
+}
+
+/*seccion hero*/
+.hero{
+    background-color: #192028;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url(https://i.postimg.cc/7LpPf7fX/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover; /*para que cubra toda la pantalla*/
+    background-position: center;
+}
+
+
+
+/*-------------------------*/
+
+/*estilos generales*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-oscura {
+    background-color: #192028;
+    color: #F8F5FF;
+}
+
+
+.seccion-clara {
+    background-color: #F8F5FF;
+    color: #192028; 
+}
+
+
+.seccion-titulo {
+    font-size: 2rem;
+    color: #F8F5FF;
+    padding: 15px 0;
+    font-family: "Questrial", sans-serif; 
+    margin-top: 6rem;
+    
+}
+
+.seccion-texto {
+    font-size: 1.1rem;
+    color: #F8F5FF;
+    justify-content: center;
+    
+}
+
+/*seccion Hero*/
+.hero-principal {
+    padding: 3rem;
+    color: #F8F5FF;
+    padding-top: 5rem;
+}
+
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: #ffffff;
+}
+
+.sign {
+  width: 100%;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign svg {
+  width: 25px;
+}
+
+.sign svg path {
+  fill: rgb(192, 202, 8);
+}
+
+
+/*productos de temporada*/
+
+.tarjeta {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed rgba(75, 85, 99, 1);;
+  background-color: rgb(16, 20, 36); /*fondo de card*/
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px #0000001a;
+  margin-top: 1em;
+  color: #fff7f0; /*texto*/
+
+}
+
+
+
+.tarjeta.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta.text span {
+  font-weight: 400;
+  color: rgba(75, 85, 99, 1);
+}
+
+.tarjeta input {
+  display: none;
+}
+
+
+/*--------------*/
+.container {
+  height: 100vh;
+  width: 100vw;
+  max-height: 0rem;
+  max-width: 90rem;
+  min-height: 25rem;
+  min-width: 82rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+.border {
+  height: 24rem;
+  width: 20rem;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+ 
+}
+.border:hover {
+  border: 1px solid #100f0f;
+}
+.card {
+  height: 24rem;
+  width: 20rem;
+  background: #524444;
+  border-radius: 10px;
+  transition:  0.8s;
+  overflow: hidden;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 15em;
+}
+
+/*-----------*/
+.card0 {
+  background: url("./img/modelo\ 001\ bolsas\ transparentes.png") center center no-repeat;
+  background-size: 300px; /*fondo de card*/
+}
+.card0:hover {
+  background: url("./img/modelo\ 001\ bolsas\ transparentes.png") left center no-repeat;
+  background-size: 500px;
+}
+.card0:hover h2 {
+  opacity: 1;
+}
+
+
+.card1 {
+  background: url("img/modelo\ 002\ monedero.png") center center no-repeat;
+  background-size: 318px;
+}
+.card1:hover {
+  background: url("img/modelo\ 002\ monedero.png") left center no-repeat;
+  background-size: 500px;
+}
+.card1:hover h2 {
+  opacity: 1;
+}
+
+.card2 {
+  background: url("img/modelo\ 003\ pportatoallita\ sanitaria.png") center center no-repeat;
+  background-size: 318px;
+}
+.card2:hover {
+  background: url("img/modelo\ 003\ pportatoallita\ sanitaria.png") left center no-repeat;
+  background-size: 500px;
+}
+.card2:hover h2 {
+  opacity: 1;
+}
+
+.card3 {
+  background: url("img/modelo\ 004\ cuatro\ sobres.png") center center no-repeat;
+  background-size: 260px;
+}
+.card3:hover {
+  background: url("img/modelo\ 004\ cuatro\ sobres.png") left center no-repeat;
+  background-size: 375px;
+}
+.card3:hover h2 {
+  opacity: 1;
+}
+
+
+/*-----------*/
+.card4 {
+  background: url("img/modelo\ 005\ Mochila\ transparente.png") center center no-repeat;
+  background-size: 260px;
+}
+.card4:hover {
+  background: url("img/modelo\ 005\ Mochila\ transparente.png") left center no-repeat;
+  background-size: 375px;
+}
+.card4:hover h2 {
+  opacity: 1;
+}
+
+.card5 {
+  background: url("img/modelo\ 006\ cartera\ tranparente.png") center center no-repeat;
+  background-size: 260px;
+}
+.card5:hover {
+  background: url("img/modelo\ 006\ cartera\ tranparente.png") left center no-repeat;
+  background-size: 375px;
+}
+.card5:hover h2 {
+  opacity: 1;
+}
+
+.card6 {
+  background: url("img/modelo\ 007\ sobre\ transparente.png") center center no-repeat;
+  background-size: 260px;
+}
+.card6:hover {
+  background: url("img/modelo\ 007\ sobre\ transparente.png") left center no-repeat;
+  background-size: 375px;
+}
+.card6:hover h2 {
+  opacity: 1;
+}
+
+.card7 {
+  background: url("https://i.pinimg.com/originals/eb/0b/79/eb0b798bef15bf8b4755790078ef26a2.jpg") center center no-repeat;
+  background-size: 400px;
+}
+.card7:hover {
+  background: url("https://i.pinimg.com/originals/eb/0b/79/eb0b798bef15bf8b4755790078ef26a2.jpg") left center no-repeat;
+  background-size: 600px;
+}
+.card7:hover h2 {
+  opacity: 1;
+}
+
+
+
