@@ -356,11 +356,11 @@ section {
 }
 
 .card3 {
-  background: url("img/modelo\ 004\ cuatro\ sobres.png") center center no-repeat;
+  background: url("https://i.postimg.cc/0263yK90/modelo-003-pportatoallita-sanitaria.png") center center no-repeat;
   background-size: 260px;
 }
 .card3:hover {
-  background: url("img/modelo\ 004\ cuatro\ sobres.png") left center no-repeat;
+  background: url("https://i.postimg.cc/0263yK90/modelo-003-pportatoallita-sanitaria.png") left center no-repeat;
   background-size: 375px;
 }
 .card3:hover h2 {
