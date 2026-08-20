@@ -468,5 +468,56 @@ section {
   opacity: 1;
 }
 
+/*-----------*/
+.card0 {
+  background: url("https://i.postimg.cc/fRCbWPzd/modelo-001-bolsas-transparentes.png") center center no-repeat;
+  background-size: 300px; /*fondo de card*/
+}
+.card0:hover {
+  background: url("https://i.postimg.cc/fRCbWPzd/modelo-001-bolsas-transparentes.png") left center no-repeat;
+  background-size: 500px;
+}
+.card0:hover h2 {
+  opacity: 1;
+}
 
+
+.card1 {
+  background: url("https://i.postimg.cc/02cQP32K/modelo-002-monedero.png") center center no-repeat;
+  background-size: 318px;
+}
+.card1:hover {
+  background: url("https://i.postimg.cc/02cQP32K/modelo-002-monedero.png") left center no-repeat;
+  background-size: 500px;
+}
+.card1:hover h2 {
+  opacity: 1;
+}
+
+.card2 {
+  background: url("img/modelo\ 003\ pportatoallita\ sanitaria.png") center center no-repeat;
+  background-size: 318px;
+}
+.card2:hover {
+  background: url("img/modelo\ 003\ pportatoallita\ sanitaria.png") left center no-repeat;
+  background-size: 500px;
+}
+.card2:hover h2 {
+  opacity: 1;
+}
+
+.card3 {
+  background: url("https://i.postimg.cc/0263yK90/modelo-003-pportatoallita-sanitaria.png") center center no-repeat;
+  background-size: 260px;
+}
+.card3:hover {
+  background: url("https://i.postimg.cc/0263yK90/modelo-003-pportatoallita-sanitaria.png") left center no-repeat;
+  background-size: 375px;
+}
+.card3:hover h2 {
+  opacity: 1;
+}
+
+
+/*-----------*/
 
