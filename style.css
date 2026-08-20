@@ -319,11 +319,11 @@ section {
 
 /*-----------*/
 .card0 {
-  background: url("./img/modelo\ 001\ bolsas\ transparentes.png") center center no-repeat;
+  background: url("https://i.postimg.cc/fRCbWPzd/modelo-001-bolsas-transparentes.png") center center no-repeat;
   background-size: 300px; /*fondo de card*/
 }
 .card0:hover {
-  background: url("./img/modelo\ 001\ bolsas\ transparentes.png") left center no-repeat;
+  background: url("https://i.postimg.cc/fRCbWPzd/modelo-001-bolsas-transparentes.png") left center no-repeat;
   background-size: 500px;
 }
 .card0:hover h2 {
