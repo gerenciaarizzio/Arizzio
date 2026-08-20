@@ -332,11 +332,11 @@ section {
 
 
 .card1 {
-  background: url("img/modelo\ 002\ monedero.png") center center no-repeat;
+  background: url("https://i.postimg.cc/02cQP32K/modelo-002-monedero.png") center center no-repeat;
   background-size: 318px;
 }
 .card1:hover {
-  background: url("img/modelo\ 002\ monedero.png") left center no-repeat;
+  background: url("https://i.postimg.cc/02cQP32K/modelo-002-monedero.png") left center no-repeat;
   background-size: 500px;
 }
 .card1:hover h2 {
